@@ -94,13 +94,13 @@
 .item-details{
     text-align: center;
 }
-.upcoming {
+.upcoming{
     background-color: antiquewhite;
     margin-bottom: 10px;
     padding: 10px 10px;
     border-radius: 5px;
+    text-decoration: none;
 }
-
 .group {
     background-color: antiquewhite;
     margin-bottom: 10px;
