@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+.banner {
+    display: flex;
+    background-color: black;
+    width: 90%;
+    border-radius: 30px;
+    margin-top: 50px;
+    padding-top: 20px;
+    animation: example infinite 5s;
+}
+
+.banner-item {
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    border-radius: 20px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.banner-img {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-heading {
+    font-family: 'Poppins';
+    font-size: 40px;
+}
+
+.banner-paragraph {
+    font-size: 20px;
+    padding: 25px 0;
+}
+
+.banner-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.banner-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: example infinite 5s;
+}
+
+/* --------
+        main
+        ------- */
+.main-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 100px;
+}
+.item-img{
+    display: flex;
+}
+
+.main-button {
+
+    text-align: center;
+    background-color: black;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 50px 50px;
+    margin-bottom: 250px;
+    margin-top: 60px;
+}
+
+
+.main-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.main-item{
+    align-items: center;
+    justify-content: center;
+}
+.item-details{
+    text-align: center;
+}
+.upcoming {
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.group {
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.blog {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background-color: red;
+}
+
+.blog a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.line {
+    margin: 30px 0;
+}
+
+.view-all {
+    background-color: red;
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    margin-bottom: 50px;
+
+}
+
+.footer-item {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    width: 60%;
+    color: gray;
+}

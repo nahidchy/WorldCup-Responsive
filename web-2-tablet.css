@@ -1,0 +1,48 @@
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    .banner,
+    h1 {
+        font-size: 30px;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0 20px;
+    }
+
+    .banner-item {
+        flex: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .main-button {
+        display: flex;
+        width: 100%;
+        background-color: aliceblue;
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+
+    .main-container {
+        display: grid;
+        /* grid-template-rows: repeat(1,1fr); */
+    }
+
+    .main-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .view-all {
+        visibility: visible;
+    }
+
+    .footer-item {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        width: 60%;
+        color: gray;
+    }
+}
